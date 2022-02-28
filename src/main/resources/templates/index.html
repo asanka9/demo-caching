@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Register User</h1>
+	
+		<form  method="post"  th:action="@{/}">
+			                First Name : <input  type="text" name="firstName" placeholder="Enter First Name"><br>
+			                Last Name : <input  type="text" name="lastName" placeholder="Enter Last Name"><br>
+			                Email : <input  type="email" name="email" placeholder="Enter email"><br>
+			                Password : <input  type="text" name="password" placeholder="Enter password"><br>
+					        Address : <input  type="text" name="address" placeholder="Enter password"><br>
+							Description : <input  type="text" name="description" placeholder="Enter password"><br>
+	                
+	           <br>
+	                
+	              <button  type="submit">Register Me</button>
+	                
+	                
+	                
+       </form>
+	
+	
+	
+	
+	
+	<h1>Login User</h1>
+	                <form  method="post"  th:action="@{/profile}">
+	                Email : 
+	              <input  type="email" name="email" placeholder="Enter email">
+	              <br>
+	                	              <br>
+	                
+	           Password : <input  type="password" name="password" placeholder="Enter Password">
+	           <br><br>
+	                
+	              <button  type="submit">Sign In</button>
+	                
+	                
+	                
+                </form>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>
